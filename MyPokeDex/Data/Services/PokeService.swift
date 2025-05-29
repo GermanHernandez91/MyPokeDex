@@ -16,9 +16,8 @@ final class PokeServiceImpl: PokeService {
 
     func fetchAllPokemon(limit: Int) async throws -> PokemonListResponse {
         try await NetworkClient.Request(
-            url: Constants.baseURL,
-            method: .get,
-            headers: ["limit": limit.description]
+            url: "\(Constants.baseURL)?limit=\(limit)",
+            method: .get
         ).run()
     }
     
