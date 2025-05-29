@@ -1,0 +1,24 @@
+{
+  "originHash" : "3d1e3d919596d23eb743512b5a1b7ab40d9612c64ad73560593959b6efe245c8",
+  "pins" : [
+    {
+      "identity" : "drops",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/omaralbeik/Drops.git",
+      "state" : {
+        "revision" : "a183ee6f79f21c940092a19c2cba756555422371",
+        "version" : "1.7.0"
+      }
+    },
+    {
+      "identity" : "loadingviewkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/GermanHernandez91/LoadingViewKit",
+      "state" : {
+        "revision" : "b3ff4c976757ddcac9ae785c36d255cce40fdf90",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
